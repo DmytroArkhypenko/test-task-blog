@@ -1,0 +1,62 @@
+{
+  "homepage": "http://DmytroArkhypenko.github.io/test-task-blog/",
+  "name": "test-task-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^1.0.0",
+    "@tanem/react-nprogress": "^3.0.51",
+    "@types/react-redux": "^7.1.9",
+    "axios": "^0.20.0",
+    "next": "9.5.3",
+    "next-redux-wrapper": "^6.0.2",
+    "nprogress": "^0.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.0",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.5",
+    "@types/react": "^16.9.51",
+    "@types/styled-components": "^5.1.5",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-nextjs": "^1.0.6",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.4.0",
+    "eslint-plugin-testing-library": "^3.10.1",
+    "prettier": "^1.16.4",
+    "typescript": "^4.0.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "airbnb"
+    ]
+  }
+}
